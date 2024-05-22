@@ -180,3 +180,17 @@ footer{
     font-weight: 300;
     line-height: 27px;
 }
+.card-button:hover{
+    width: 119px;
+    height: 42px;
+    background: #cf393e;
+    color: #FFF;
+    border-radius: 4px;
+}
+.first-button:hover{
+    background: #cf393e;
+    color: #FFF;
+    width: 161px;
+    height: 53px;
+    border-radius: 4px;
+}
