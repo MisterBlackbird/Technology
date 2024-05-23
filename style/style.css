@@ -7,9 +7,6 @@
     border: none;
     outline: none;
 }
-.conteiner{
-    width: 1125px;
-}
 .first-section{
     background: #FFF;
     display: flex;
@@ -193,4 +190,55 @@ footer{
     width: 161px;
     height: 53px;
     border-radius: 4px;
+}
+
+
+
+.conteiner{
+    max-width: 1125px;
+    margin: 0 auto;
+}
+.header-section{
+    margin-bottom: 20px;
+    padding: 22px 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+.logo{
+    width: 120px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 50px;
+    font-family: "Roboto", sans-serif;
+}
+.menu a{
+    color: rgba(31, 46, 56, 0.8);
+    font-size: 18px;
+}
+.drop-menu{
+    padding-right: 21px;
+    position: relative;
+}
+.drop-menu::before{
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 9px;
+    background: url(../images/chevron_down.svg);
+    right: 0;
+    top: 7px;
+    transition: 0.3s;
+}
+.drop-menu:hover.drop-menu::before{
+    transform: rotate(180deg);
+}
+.header-icon{
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
