@@ -41,6 +41,7 @@
     width: 161px;
     height: 53px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 
@@ -123,6 +124,7 @@
     background: #EE4248;
     color: #FFF;
     border-radius: 4px;
+    cursor: pointer;
 }
 .card-menu{
     display: flex;
