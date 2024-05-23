@@ -185,6 +185,7 @@ footer{
     background: #cf393e;
     color: #FFF;
     border-radius: 4px;
+    cursor: pointer;
 }
 .first-button:hover{
     background: #cf393e;
@@ -192,6 +193,7 @@ footer{
     width: 161px;
     height: 53px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 
