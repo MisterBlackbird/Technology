@@ -33,22 +33,15 @@
         position: absolute;
         transition: 0.5s;
     }
-
     .burger-line.one{
         top: 0;
-        transition: 0.5s;
     }
-
     .burger-line.two{
         top: calc(50% - 3px);
-        transition: 0.5s;
     }
-
     .burger-line.three{
         bottom: 0;
-        transition: 0.5s;
     }
-
     .menu{
         display: block;
         position: fixed;
@@ -67,27 +60,20 @@
         top: calc(50% - 3px);
         transition: 0.5s;
     }
-
     .navigation.active .one{
         transform: rotate(45deg);
         transition: 0.5s;
     }
-    
     .navigation.active .two{
         display: none;
         transition: 0.5s;
     }
-
     .navigation.active .three{
         transform: rotate(-45deg);
         transition: 0.5s;
     }
-
     .navigation.active .menu{
         right: 0;
         transition: 0.5s;
     }
-
-
-
 }
